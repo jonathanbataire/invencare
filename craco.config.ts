@@ -6,7 +6,15 @@ module.exports = {
       '@features': ['features/'],
       '@redux-hooks': ['app/hooks'],
       '@components': ['components/'],
-      '@styles': ['styles/']
+      '@styles': ['styles/'],
+      '@icons': ['assests/icons/']
     },
+    css :{
+      preprocessorOptions : {
+        scss: {
+          api: 'modern',
+        }        
+      } 
+    }
   }
 };

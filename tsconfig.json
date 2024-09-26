@@ -10,8 +10,9 @@
     "paths": {
       "@features/*": ["features/*"],
       "@redux-hooks": ["app/hooks"],
-      "@components": ["components/"],
-      "@styles": ["styles/"]
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/"],
+      "@icons/*": ["assests/icons/"]
     },
     "allowJs": true,
     "skipLibCheck": true,
