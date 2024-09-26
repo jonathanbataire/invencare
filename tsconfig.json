@@ -8,8 +8,8 @@
     ],
     "baseUrl": "src",
     "paths": {
+      "@app/*": ["app/*"],
       "@features/*": ["features/*"],
-      "@redux-hooks": ["app/hooks"],
       "@components/*": ["components/*"],
       "@styles/*": ["styles/"],
       "@icons/*": ["assests/icons/"]

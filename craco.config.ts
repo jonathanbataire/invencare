@@ -3,8 +3,8 @@ module.exports = {
   webpack: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
+      '@app': ['app/'],
       '@features': ['features/'],
-      '@redux-hooks': ['app/hooks'],
       '@components': ['components/'],
       '@styles': ['styles/'],
       '@icons': ['assests/icons/']
