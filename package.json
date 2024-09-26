@@ -46,9 +46,12 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@craco/craco": "^7.1.0",
     "@eslint/js": "^9.11.1",
+    "@types/node-sass": "^4.11.7",
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.36.1",
     "globals": "^15.9.0",
+    "node-sass": "^7.0.3",
+    "sass": "^1.79.3",
     "typescript-eslint": "^8.7.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -8,9 +8,10 @@
     ],
     "baseUrl": "src",
     "paths": {
-      "@features": ["features/"],
+      "@features/*": ["features/*"],
       "@redux-hooks": ["app/hooks"],
-      "@components": ["components"]
+      "@components": ["components/"],
+      "@styles": ["styles/"]
     },
     "allowJs": true,
     "skipLibCheck": true,
