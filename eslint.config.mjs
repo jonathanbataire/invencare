@@ -5,15 +5,11 @@ import pluginReactConfig from 'eslint-plugin-react/configs/recommended.js';
 
 
 export default [
-  { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
-  { languageOptions: { parserOptions: { ecmaFeatures: { jsx: true } } } },
-  { languageOptions: { globals: globals.browser } },
-  pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
-  pluginReactConfig,
-  {
+  { 
+    files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
     rules: {
       'max-len': 'off',
+      'semi': ['error', 'always'],
       'require-await': 'warn',
       'no-debugger': 'off',
       'quotes': [
@@ -33,6 +29,11 @@ export default [
           'asyncArrow': 'always'
         }
       ]
-    }
-  }
+    }  
+  },
+  { languageOptions: { parserOptions: { ecmaFeatures: { jsx: true } } } },
+  { languageOptions: { globals: globals.browser } },
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommended,
+  pluginReactConfig
 ];

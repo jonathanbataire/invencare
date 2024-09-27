@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './assets/logo.svg';
-import { Counter } from '@components/Counter';
+//import { Counter } from '@components/Counter';
+import { Login } from '@components/Login';
 import '@styles/App.scss';
 
 function App() {
@@ -8,10 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Login />
       </header>
     </div>
   );

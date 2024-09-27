@@ -5,6 +5,7 @@ module.exports = {
       '@': path.resolve(__dirname, 'src'),
       '@app': ['app/'],
       '@features': ['features/'],
+      '@services': ['services/'],
       '@components': ['components/'],
       '@styles': ['styles/'],
       '@icons': ['assests/icons/']

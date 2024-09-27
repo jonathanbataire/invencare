@@ -10,7 +10,9 @@
     "paths": {
       "@app/*": ["app/*"],
       "@features/*": ["features/*"],
+      "@services/*": ["services/*"],
       "@components/*": ["components/*"],
+      "@apptypes": ["types"],
       "@styles/*": ["styles/"],
       "@icons/*": ["assests/icons/"]
     },

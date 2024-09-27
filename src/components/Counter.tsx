@@ -9,7 +9,7 @@ import {
   incrementIfOdd,
   selectCount,
 } from '@features/counter/counterSlice';
-import styles from '../styles/Counter.module.scss';
+import styles from '@styles/Counter.module.scss';
 
 export function Counter() {
   const count = useAppSelector(selectCount);
