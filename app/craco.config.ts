@@ -7,6 +7,7 @@ module.exports = {
       '@features': ['features/'],
       '@services': ['services/'],
       '@components': ['components/'],
+      '@pages': ['pages/'],
       '@styles': ['styles/'],
       '@icons': ['assests/icons/']
     },

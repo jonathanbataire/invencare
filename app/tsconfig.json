@@ -12,6 +12,7 @@
       "@features/*": ["features/*"],
       "@services/*": ["services/*"],
       "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
       "@apptypes": ["types"],
       "@styles/*": ["styles/"],
       "@icons/*": ["assests/icons/"]

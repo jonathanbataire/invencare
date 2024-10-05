@@ -10,16 +10,16 @@ import {
 //import { Counter } from '@components/Counter';
 import { Login } from '@components/Login';
 import '@styles/App.scss';
-import { Home } from '@components/Home';
+import { Layout } from '@pages/Layout';
+import { AuthRoute } from '@components/AuthRoute';
 
-const rootElement = <div id='route-outlet'><Outlet/></div>;
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path: '/',
-      element: rootElement,
+      element: <Outlet/>,
       errorElement: <div>error</div>,
       children: [
         {
@@ -32,7 +32,11 @@ function App() {
         },
         {
           path: 'home',
-          element: <Home/> //aka layout protect this
+          element: (
+            <AuthRoute>
+              <Layout/>
+            </AuthRoute>
+          )
         }
       ]
     },
